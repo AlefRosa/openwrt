@@ -204,6 +204,9 @@ get_status_led() {
 	gl-mt300n-v2)
 		status_led="$boardname:green:power"
 		;;
+	minibox-v2.0-16M)
+		status_led= "$boardname:green:wifi"
+		;;
 	m4-4M|\
 	m4-8M)
 		status_led="m4:blue:status"

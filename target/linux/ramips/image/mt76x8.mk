@@ -50,6 +50,22 @@ define Device/gl-mt300n-v2
 endef
 TARGET_DEVICES += gl-mt300n-v2
 
+define Device/minibox-v2.0-16M
+  DTS := MINIBOX-V2.0-16M
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := Minibox-v2.0(16M)
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ohci kmod-usb-ledtrig-usbport \
+	mountd \
+	uhttpd rpcd rpcd-mod-iwinfo \
+	luci luci-theme-openwrt luci-app-mjpg-streamer luci-app-samba luci-lib-json \
+	rpcd-mod-rpcsys cgi-io avrdude spi-tools \
+	kmod-fs-vfat kmod-i2c-core kmod-i2c-ralink \
+	kmod-nls-base kmod-nls-cp437 kmod-nls-iso8859-1 kmod-nls-utf8 \
+	maccalc shairport_mmap reg \
+	kmod-sdhci-mt7620 kmod-usb-storage
+endef
+TARGET_DEVICES += minibox-v2.0-16M
+
 define Device/hc5661a
   DTS := HC5661A
   IMAGE_SIZE := $(ralink_default_fw_size_16M)

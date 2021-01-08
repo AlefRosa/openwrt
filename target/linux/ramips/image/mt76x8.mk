@@ -61,8 +61,7 @@ define Device/minibox-v2.0-16M
 	rpcd-mod-rpcsys cgi-io avrdude spi-tools \
 	kmod-fs-vfat kmod-i2c-core kmod-i2c-ralink \
 	kmod-nls-base kmod-nls-cp437 kmod-nls-iso8859-1 kmod-nls-utf8 \
-	maccalc shairport_mmap reg \
-	kmod-sdhci-mt7620 kmod-usb-storage
+	maccalc shairport_mmap reg
 endef
 TARGET_DEVICES += minibox-v2.0-16M
 

@@ -53,7 +53,7 @@ TARGET_DEVICES += gl-mt300n-v2
 define Device/minibox-v2.0-16M
   DTS := minibox-v2.0-16M
   IMAGE_SIZE := $(ralink_default_fw_size_16M)
-  DEVICE_TITLE := Minibox-v2.0(16M)
+  DEVICE_TITLE := minibox-v2.0-16M
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ohci kmod-usb-ledtrig-usbport \
 	mountd \
 	uhttpd rpcd rpcd-mod-iwinfo \

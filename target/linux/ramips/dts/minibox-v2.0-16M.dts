@@ -7,7 +7,7 @@
 
 /{
 	compatible = "mediatek,minibox-v2.0-16M", "mediatek,mt7628an-soc";
-	model = "Minibox-v2.0 16MB";
+	model = "minibox-v2.0-16M";
 
 	chosen {
 		bootargs = "console=ttyS0,57600";

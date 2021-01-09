@@ -217,7 +217,7 @@ ramips_board_detect() {
 	*"GL-MT300N-V2")
 		name="gl-mt300n-v2"
 		;;
-	*"minibox-v2.0 16MB")
+	*"minibox-v2.0-16M")
 		name="minibox-v2.0-16M"
 		;;
 	*"HC5661")

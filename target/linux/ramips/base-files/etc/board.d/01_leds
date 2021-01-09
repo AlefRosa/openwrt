@@ -213,8 +213,8 @@ gl-mt300n-v2)
 	ucidef_set_led_switch "wan" "wan" "$boardname:green:wan" "switch0" "0x1"
 	;;
 minibox-v2.0-16M)
-	ucidef_set_led_netdev "eth" "ETH" "minibox-v2.0:orange:eth" "eth0"
-	set_wifi_led "minibox-v2.0:green:status"
+	ucidef_set_led_netdev "eth" "ETH" "minibox-v2.0-16M:orange:eth" "eth0"
+	set_wifi_led "minibox-v2.0-16M:green:status"
 	;;
 hc5661|\
 hc5661a)
